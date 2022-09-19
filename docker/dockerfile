@@ -1,5 +1,0 @@
-FROM node:lts-alpine
-
-USER node
-
-WORKDIR /workspaces/zenn-docs
