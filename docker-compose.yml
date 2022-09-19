@@ -2,10 +2,14 @@ version: '3.9'
 services:
   app:
     build:
-      context: ./docker
+      context: .
       dockerfile: Dockerfile
+    command: npx zenn preview
     container_name: zenn-docs
     image: zenn-docs
+    ports:
+      - "8000:8000"
+    tty: true
     volumes:
       - type: bind
         source: "."
