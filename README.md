@@ -56,6 +56,12 @@ Zenn の記事や本を管理するリポジトリです。
   make book
   ```
 
+* Lint の実行
+
+  ```bash
+  make lint
+  ```
+
 ## make コマンド一覧
 
 ```bash
@@ -69,6 +75,7 @@ restart              Do docker compose restart
 exec                 Execute a command in a running app container
 logs                 Tail docker compose logs
 ps                   Check container status
+lint                 Run lint
 article              Create a new article
 book                 Create a new book
 ```

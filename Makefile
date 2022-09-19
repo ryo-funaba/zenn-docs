@@ -1,4 +1,4 @@
-.PHONY: help build up down restart exec logs ps article book
+.PHONY: help build up down restart exec logs ps lint article book
 
 help: ## Show options
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | \
@@ -23,6 +23,9 @@ logs: ## Tail docker compose logs
 
 ps: ## Check container status
 	docker compose ps
+
+lint: ## Run lint
+	docker compose exec app yarn textlint .
 
 article: ## Create a new article
 	docker compose exec app npx zenn new:article
