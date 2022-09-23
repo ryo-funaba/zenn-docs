@@ -22,6 +22,7 @@ Thumbs.db
 # Node
 node_modules
 npm-debug.log
+.cache
 
 # Build directories
 dist
