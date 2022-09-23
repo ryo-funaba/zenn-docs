@@ -25,7 +25,7 @@ ps: ## Check container status
 	docker compose ps
 
 lint: ## Run lint
-	docker compose exec app yarn textlint .
+	docker compose exec app yarn lint
 
 article: ## Create a new article
 	docker compose exec app npx zenn new:article
