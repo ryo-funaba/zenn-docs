@@ -1,16 +1,16 @@
 {
   "markdownlint.config": {
-    "blanks-around-headings": false, // MD022: 見出しを空白行で囲む必要があるスタイルが同じく競合するため
-    "commands-show-output": false, // MD014: 出力を表示せずにコマンドの前に使用するドル記号
-    "heading-increment": false, // MD001: 見出しレベルが1つずつ増加されているか、MDCコンポーネントの影響で見出しの階層を正しく判定できないため
-    "heading-style": false, // MD003: 見出しスタイルがMDCのコンポーネント記述と競合するため
-    "line-length": {
-      "line_length": 120 // MD013: 1文の最大文字数を調整
+    "MD001": false, // 見出しのレベルは、一度に1レベルずつしか増加しないようにする。
+    "MD003": false, // 見出しのスタイル
+    "MD013": {
+      "line_length": 120 // 一行の文字数
     },
-    "no-bare-urls": false, // MD034: コンポーネントの引数で指定するためURLそのままの表記を許容
-    "no-duplicate-heading": false, // MD024: 見出し判断されたコンポーネント名が重複するため見出しテキストの重複を許容
-    "no-inline-html": false, // MD033: HTML記述を許容
-    "no-trailing-punctuation": false, // MD026: 見出しに.,;:が入ることを許容
-    "single-title": false, // MD025: 同一文書内の複数のトップレベル見出し
+    "MD014": false, // 出力を表示せずにコマンドの前に使用するドル記号
+    "MD022": false, // 見出しは空白行で囲む
+    "MD024":false, // 同じ内容の見出しが複数ある
+    "MD025":false, // 同一文書内に複数のトップレベル見出しがある
+    "MD026":false, // 見出しの末尾の句読点
+    "MD033":false, // インラインHTML
+    "MD034": false // 裸のURL
   }
 }
