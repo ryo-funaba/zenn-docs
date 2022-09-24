@@ -1,4 +1,4 @@
-# zenn-docs
+# ![zenn](./icon/zenn.png) zenn-docs
 
 <a href="https://github.com/ryo-funaba/zenn-docs/actions/workflows/lint.yml">
     <img src="https://github.com/ryo-funaba/zenn-docs/actions/workflows/lint.yml/badge.svg?branch=main&event=push" alt="lint badge">
