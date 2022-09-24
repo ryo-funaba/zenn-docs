@@ -1,5 +1,9 @@
 # zenn-docs
 
+<a href="https://github.com/ryo-funaba/zenn-docs/actions/workflows/lint.yml">
+    <img src="https://github.com/ryo-funaba/zenn-docs/actions/workflows/lint.yml/badge.svg?branch=main&event=push" alt="lint badge">
+</a>
+
 Zenn の記事や本を管理するリポジトリです。
 
 記事や本の管理に zenn-cli を使用しています。
