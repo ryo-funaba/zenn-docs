@@ -8,12 +8,19 @@ Zenn の記事や本を管理するリポジトリです。
 
 記事や本の管理に zenn-cli を使用しています。
 
-## 環境構築
+## ⚙️ 技術スタック
 
-* 前提条件
-  * GitHub と SSH 接続する設定を済ませていること
-  * Docker(v20.10.17 以上) がインストールされていること
-  * Docker compose(v2.7.0 以上) がインストールされていること
+- zenn-cli
+- Docker Compose
+- textlint
+- markdownlint
+
+## 🔨 環境構築
+
+- 前提条件
+  - GitHub と SSH 接続する設定を済ませていること
+  - Docker(v20.10.17 以上) がインストールされていること
+  - Docker compose(v2.7.0 以上) がインストールされていること
 
 1. リポジトリをクローン
 
@@ -41,32 +48,32 @@ Zenn の記事や本を管理するリポジトリです。
 
 5. ブラウザでプレビューを確認する
 
-    * ポート番号 8000 でプレビュー用の画面が表示される
-    * <img width="1920" alt="スクリーンショット 2022-09-19 16 54 31" src="https://user-images.githubusercontent.com/59598693/190973996-c777372c-e5ce-43a4-af89-c1c073330ab0.png">
+    - ポート番号 8000 でプレビュー用の画面が表示される
+    - <img width="1920" alt="スクリーンショット 2022-09-19 16 54 31" src="https://user-images.githubusercontent.com/59598693/190973996-c777372c-e5ce-43a4-af89-c1c073330ab0.png">
 
 6. 以上
 
-## 使い方
+## 📝 使い方
 
-* 記事の作成
+- 記事の作成
 
   ```bash
   make article
   ```
 
-* 本の作成
+- 本の作成
 
   ```bash
   make book
   ```
 
-* Lint の実行
+- Lint の実行
 
   ```bash
   make lint
   ```
 
-## make コマンド一覧
+## 💁‍♂️ make コマンド一覧
 
 ```bash
 $ make help
