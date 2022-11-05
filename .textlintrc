@@ -1,4 +1,7 @@
 {
+  "filters": {
+    "comments": true
+  },
   "rules": {
     "ja-space-around-link": true,
     "no-doubled-joshi": true,
