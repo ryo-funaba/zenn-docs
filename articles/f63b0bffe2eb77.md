@@ -6,6 +6,8 @@ topics: ["mac","raycast","warp","tableplus"]
 published: true
 ---
 
+*この記事は約 10 分で読めます。*
+
 # 結論
 
 - **Raycast**（ランチャー）
