@@ -3,7 +3,7 @@ title: "開発における3種の神器"
 emoji: "⚔️"
 type: "tech"
 topics: ["mac","raycast","warp","tableplus"]
-published: false
+published: true
 ---
 
 # 結論
@@ -37,11 +37,11 @@ Alfred の重課金ユーザーさえも乗り換えるほど人気で注目さ�
 主な機能を紹介します。
 
 - [アプリケーションやファイルの検索](https://www.raycast.com/extensions/file-search)
-  - 画面右側に検索結果のファイルのプレビューが表示される
+  - 画面右側に検索結果のファイルのプレビューを表示
   - 私は「`Control + Space`」で Raycast を起動するよう設定しています
   ![Raycastのファイル検索の実行画面](/images/raycast_file_search.png)
 - [クリップボード履歴の管理](https://www.raycast.com/extensions/clipboard-history)
-  - クリップボード履歴の検索だけでなく、画面右側に URL や画像、カラーコードのプレビューも可能
+  - クリップボード履歴の検索だけでなく、画面右側に URL や画像、カラーコードのプレビューを表示
   - 私は「`Shift + Space`」のショートカットで起動するよう設定しています
   ![Raycastのクリップボード履歴の実行画面](/images/raycast_clip_board_cmd.png)
 - [スニペットの管理](https://www.raycast.com/extensions/snippets)
