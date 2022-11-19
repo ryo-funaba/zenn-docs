@@ -26,7 +26,7 @@
     },
     "rousseau": {
       "showLevels": ["suggestion", "warning", "error"],
-      "ignoreTypes": ["adverbs", "sentence:uppercase"]
+      "ignoreTypes": ["adverbs", "sentence:start", "sentence:uppercase"]
     },
     "@textlint-ja/textlint-rule-no-dropping-i": true,
     "@proofdict/proofdict": {
