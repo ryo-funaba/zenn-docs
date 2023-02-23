@@ -19,7 +19,7 @@
   "homepage": "https://github.com/ryo-funaba/zenn-docs#readme",
   "devDependencies": {
     "@proofdict/textlint-rule-proofdict": "^3.1.2",
-    "@textlint-ja/textlint-rule-no-dropping-i": "^2.0.0",
+    "@textlint-ja/textlint-rule-no-dropping-i": "^2.0.1",
     "markdownlint-cli": "^0.32.2",
     "textlint": "^13.3.0",
     "textlint-filter-rule-comments": "^1.2.2",
