@@ -2,7 +2,7 @@
   "name": "zenn-docs",
   "version": "1.0.0",
   "description": "zenn-docs",
-  "main": "index.js",
+  "main": "README.md",
   "scripts": {
     "lint": "textlint . && markdownlint *.md **/*.md"
   },
