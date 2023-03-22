@@ -1,8 +1,11 @@
-.PHONY: help build up down restart exec logs ps lint article book
+.PHONY: help setup build up down restart exec logs ps lint article book
 
 help: ## Show options
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | \
 		awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-20s\033[0m %s\n", $$1, $$2}'
+
+setup: ## Create a container for preview
+	make build && make up
 
 build: ## Build docker container
 	docker compose build
