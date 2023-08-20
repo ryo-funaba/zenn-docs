@@ -1,37 +1,27 @@
-.PHONY: help setup build up down restart exec logs ps lint article book
+.PHONY: help ## make task の説明を表示する
+help:
+	@grep -E "^.PHONY:( *)" $(MAKEFILE_LIST) | sed -e 's/\.PHONY: *//g' | sed -e 's/ *## */\t/g' | awk 'BEGIN {FS = "\t"}; {printf "\033[36m%-40s\033[0m %s\n", $$1, $$2}'
 
-help: ## Show options
-	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | \
-		awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-20s\033[0m %s\n", $$1, $$2}'
+#
+# Lint Tasks
+#
+.PHONY: lint ## 全ファイルを対象に Lint を実行する
+lint:
+	@printf "\033[1;33mLint\33[0m\n"; \
+	yarn lint
+	@printf "\033[1;32mSuccess\33[0m\n"
 
-setup: ## Create a container for preview
-	make build && make up
+#
+# Zenn Tasks
+#
+.PHONY: create-article ## 新しい記事を追加
+create-article:
+	@printf "\033[1;33mCreate Article\33[0m\n"; \
+	npx zenn new:article
+	@printf "\033[1;32mSuccess\33[0m\n"
 
-build: ## Build docker container
-	docker compose build
-
-up: ## Do docker compose up in detached mode
-	docker compose up -d
-
-down: ## Do docker compose down
-	docker compose down
-
-restart: down up ## Do docker compose restart
-
-exec: up ## Execute a command in a running app container
-	docker compose exec -it app ash
-
-logs: ## Tail docker compose logs
-	docker compose logs -f
-
-ps: ## Check container status
-	docker compose ps
-
-lint: ## Run lint
-	docker compose exec app yarn lint
-
-article: ## Create a new article
-	docker compose exec app npx zenn new:article
-
-book: ## Create a new book
-	docker compose exec app npx zenn new:book
+.PHONY: create-book ## 新しい本を追加
+create-book:
+	@printf "\033[1;33mCreate Book\33[0m\n"; \
+	npx zenn new:book
+	@printf "\033[1;32mSuccess\33[0m\n"
