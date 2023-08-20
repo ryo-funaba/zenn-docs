@@ -6,19 +6,7 @@ Zenn の記事や本を管理するリポジトリです。
 
 記事や本の管理に zenn-cli を使用しています。
 
-## ⚙️ 技術スタック
-
-- zenn-cli
-- Docker Compose
-- textlint
-- markdownlint
-
 ## 🔨 環境構築
-
-- 前提条件
-  - Docker(v20.10.17 以上) がインストールされていること
-  - Docker compose(v2.7.0 以上) がインストールされていること
-  - Docker デスクトップアプリが起動していること
 
 1. リポジトリをクローン
 
@@ -32,31 +20,33 @@ Zenn の記事や本を管理するリポジトリです。
    cd zenn-docs
    ```
 
-3. プレビュー用のコンテナを起動
+3. パッケージをインストール
 
    ```bash
-   make setup
+   yarn install
    ```
 
-4. ブラウザでプレビューを確認する
+4. コンテンツをブラウザでプレビュー
+
+   ```bash
+   npx zenn preview
+   ```
 
     - 接続先：`http://localhost:8000`
     - <img width="1920" alt="Zennのプレビュー画面" src="https://user-images.githubusercontent.com/59598693/190973996-c777372c-e5ce-43a4-af89-c1c073330ab0.png">
-
-5. 以上
 
 ## 📝 使い方
 
 - 記事の作成
 
   ```bash
-  make article
+  make create-article
   ```
 
 - 本の作成
 
   ```bash
-  make book
+  make create-book
   ```
 
 - Lint の実行
@@ -70,16 +60,8 @@ Zenn の記事や本を管理するリポジトリです。
 ```bash
 $ make help
 
-help                 Show options
-setup                Create a container for preview
-build                Build docker container
-up                   Do docker compose up in detached mode
-down                 Do docker compose down
-restart              Do docker compose restart
-exec                 Execute a command in a running app container
-logs                 Tail docker compose logs
-ps                   Check container status
-lint                 Run lint
-article              Create a new article
-book                 Create a new book
+help                                     make task の説明を表示する
+lint                                     全ファイルを対象に Lint を実行する
+create-article                           新しい記事を追加
+create-book                              新しい本を追加
 ```
