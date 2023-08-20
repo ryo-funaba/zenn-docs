@@ -24,7 +24,7 @@ published: true
 
 もちろん他におすすめのツールがあれば、ぜひコメントで教えてください！
 
-間違いなどありましたらコメント等でご指摘頂けると幸いです。
+間違いなどありましたらコメント等でご指摘いただけると幸いです。
 
 # Raycast
 
@@ -65,10 +65,10 @@ Alfred の重課金ユーザーさえも乗り換えるほど人気で注目さ�
   ![RaycastのWindow Managementの実行結果画面](/images/raycast_window_management.png)
 - [拡張機能の追加](https://www.raycast.com/store)
   - Chrome のようにストアから様々な拡張機能をインストール可能
-  - Raycast から AWS・GitHub・Notion・Google Drive にアクセスしたり、ネットのスピードテスト、ダミーデータの生成など、様々な拡張機能がある
+  - Raycast から AWS・GitHub・Notion・Google Drive へのアクセス、ネットのスピードテスト、ダミーデータの生成など、様々な拡張機能がある
   ![Raycastのストア画面](/images/raycast_store.png)
 
-補足記事
+補足記事はこちら。
 
 https://zenn.dev/yum3/articles/i_raycast_or_alfred
 
@@ -102,7 +102,7 @@ Warp は Rust 製のモダンなターミナルです。
   - `cat` コマンドやログ調査の際に活用されそう
   ![Warpの文字列検索している画面](/images/warp_find.png)
 - [通知](https://docs.warp.dev/features/notifications)
-  - 実行したコマンドが、予め設定した秒数を経過した場合に通知される
+  - 実行したコマンドが、あらかじめ設定した秒数を経過した場合に通知される
   - 個人的に Docker などのビルドの終了を通知してくれるので超便利
   ![Warpの通知画面](/images/warp_notification.png)
 - [SSH 先での Warpの機能の利用](https://docs.warp.dev/features/ssh)
@@ -119,7 +119,7 @@ Warp は Rust 製のモダンなターミナルです。
   - テーマのカスタマイズが可能
   ![Warpのテーマ変更の画面](/images/warp_change_theme.png)
 
-補足記事
+補足記事はこちら。
 
 https://zenn.dev/toono_f/articles/03cc961bfd64c1
 
@@ -133,7 +133,7 @@ TablePlus は人気でモダンな SQL クライアントです。
 
 実際「`もう一度使いたい SQL クライアントのランキング`」において、トップ 3 に並ぶ実力です。
 
-（残念ながら 1 位の[Arctype](https://arctype.com/)は開発が終了してしまいました）
+（残念ながら 1 位の [Arctype](https://arctype.com/) は開発が終了してしまいました）
 <!-- textlint-disable rousseau -->
 ![もう一度使いたいSQLクライアントランキング](/images/tableplus_ranking.png)
 *[&copy;stateofdb.com](https://stateofdb.com/sql-db-clients)*
