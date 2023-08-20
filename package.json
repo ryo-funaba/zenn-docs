@@ -4,7 +4,7 @@
   "description": "zenn-docs",
   "main": "README.md",
   "scripts": {
-    "lint": "textlint . && markdownlint *.md **/*.md"
+    "lint": "textlint -c ./config/.textlintrc . && markdownlint *.md **/*.md"
   },
   "repository": {
     "type": "git",
