@@ -33,7 +33,7 @@ Zenn の記事や本を管理するリポジトリです。
    ```
 
     - 接続先：`http://localhost:8000`
-    - <img width="1920" alt="Zennのプレビュー画面" src="https://user-images.githubusercontent.com/59598693/190973996-c777372c-e5ce-43a4-af89-c1c073330ab0.png">
+    - ![Zennのプレビュー画面](https://user-images.githubusercontent.com/59598693/190973996-c777372c-e5ce-43a4-af89-c1c073330ab0.png)
 
 ## 📝 使い方
 
