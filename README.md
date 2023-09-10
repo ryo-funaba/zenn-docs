@@ -29,7 +29,7 @@ Zenn の記事や本を管理するリポジトリです。
 4. コンテンツをブラウザでプレビュー
 
    ```bash
-   npx zenn preview
+   make preview
    ```
 
     - 接続先：`http://localhost:8000`
@@ -62,6 +62,7 @@ $ make help
 
 help                                     make task の説明を表示する
 lint                                     全ファイルを対象に Lint を実行する
+preview                                  コンテンツをブラウザでプレビュー
 create-article                           新しい記事を追加
 create-book                              新しい本を追加
 ```

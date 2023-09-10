@@ -14,6 +14,11 @@ lint:
 #
 # Zenn Tasks
 #
+.PHONY: preview ## コンテンツをブラウザでプレビュー
+preview:
+	@printf "\033[1;33mPreview\33[0m\n"; \
+	npx zenn preview
+
 .PHONY: create-article ## 新しい記事を追加
 create-article:
 	@printf "\033[1;33mCreate Article\33[0m\n"; \
