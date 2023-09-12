@@ -54,6 +54,6 @@
     "textlint-rule-spellcheck-tech-word": "^5.0.0",
     "textlint-rule-terminology": "^4.0.0",
     "textlint-rule-use-si-units": "^1.0.2",
-    "zenn-cli": "^0.1.144"
+    "zenn-cli": "^0.1.145"
   }
 }
