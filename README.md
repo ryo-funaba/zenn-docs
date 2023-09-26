@@ -1,6 +1,6 @@
 # ![zenn](./icon/zenn.png) zenn-docs
 
-[![CI](https://github.com/ryo-funaba/zenn-docs/actions/workflows/main.yml/badge.svg)](https://github.com/ryo-funaba/zenn-docs/actions/workflows/main.yml)
+[![CI](https://github.com/ryo-funaba/zenn-docs/actions/workflows/main.yml/badge.svg)](https://github.com/ryo-funaba/zenn-docs/actions/workflows/ci.yml)
 
 Zenn の記事や本を管理するリポジトリです。
 
@@ -23,7 +23,7 @@ Zenn の記事や本を管理するリポジトリです。
 3. パッケージをインストール
 
    ```bash
-   yarn install
+   npm install
    ```
 
 4. コンテンツをブラウザでプレビュー
