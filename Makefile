@@ -8,7 +8,7 @@ help:
 .PHONY: lint ## 全ファイルを対象に Lint を実行する
 lint:
 	@printf "\033[1;33mLint\33[0m\n"; \
-	bun lint
+	npm run lint
 	@printf "\033[1;32mSuccess\33[0m\n"
 
 #
@@ -17,16 +17,16 @@ lint:
 .PHONY: preview ## コンテンツをブラウザでプレビュー
 preview:
 	@printf "\033[1;33mPreview\33[0m\n"; \
-	bunx zenn preview
+	npx zenn preview
 
 .PHONY: create-article ## 新しい記事を追加
 create-article:
 	@printf "\033[1;33mCreate Article\33[0m\n"; \
-	bunx zenn new:article
+	npx zenn new:article
 	@printf "\033[1;32mSuccess\33[0m\n"
 
 .PHONY: create-book ## 新しい本を追加
 create-book:
 	@printf "\033[1;33mCreate Book\33[0m\n"; \
-	bunx zenn new:book
+	npx zenn new:book
 	@printf "\033[1;32mSuccess\33[0m\n"
