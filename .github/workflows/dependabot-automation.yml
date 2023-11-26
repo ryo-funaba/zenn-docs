@@ -4,6 +4,7 @@ on:
   pull_request:
     types:
       - opened
+  workflow_dispatch:
 
 permissions:
   pull-requests: write # approve/merge に必要
@@ -20,7 +21,7 @@ jobs:
         id: metadata
         uses: dependabot/fetch-metadata@v1.3.6
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.github-token }}
       - name: Approve & enable auto-merge for Dependabot PR
         if: |
           steps.metadata.outputs.update-type == 'version-update:semver-patch' ||
@@ -32,4 +33,4 @@ jobs:
         env:
           PR_URL: ${{ github.event.pull_request.html_url }}
           PR_TITLE: ${{ github.event.pull_request.title }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.github-token }}
