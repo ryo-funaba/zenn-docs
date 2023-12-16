@@ -1,6 +1,6 @@
 # ![zenn](./icon/zenn.png) zenn-docs
 
-[![CI](https://github.com/ryo-funaba/zenn-docs/actions/workflows/main.yml/badge.svg)](https://github.com/ryo-funaba/zenn-docs/actions/workflows/ci.yml)
+[![CI](https://github.com/ryo-funaba/zenn-docs/actions/workflows/ci.yml/badge.svg)](https://github.com/ryo-funaba/zenn-docs/actions/workflows/ci.yml)
 
 Zenn の記事や本を管理するリポジトリです。
 
