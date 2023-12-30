@@ -7,26 +7,26 @@ help:
 #
 .PHONY: lint ## 全ファイルを対象に Lint を実行する
 lint:
-	@printf "\033[1;33mLint\33[0m\n"; \
+	@printf "\033[1;33m[Lint] Start\33[0m\n"; \
 	npm run lint
-	@printf "\033[1;32mSuccess\33[0m\n"
+	@printf "\033[1;32m[Lint] Success\33[0m\n"
 
 #
 # Zenn Tasks
 #
 .PHONY: preview ## コンテンツをブラウザでプレビュー
 preview:
-	@printf "\033[1;33mPreview\33[0m\n"; \
+	@printf "\033[1;33m[Preview] Start\33[0m\n"; \
 	npx zenn preview
 
 .PHONY: create-article ## 新しい記事を追加
 create-article:
-	@printf "\033[1;33mCreate Article\33[0m\n"; \
+	@printf "\033[1;33m[Create Article] Start\33[0m\n"; \
 	npx zenn new:article
-	@printf "\033[1;32mSuccess\33[0m\n"
+	@printf "\033[1;32m[Create Article] Success\33[0m\n"
 
 .PHONY: create-book ## 新しい本を追加
 create-book:
-	@printf "\033[1;33mCreate Book\33[0m\n"; \
+	@printf "\033[1;33m[Create Book] Start\33[0m\n"; \
 	npx zenn new:book
-	@printf "\033[1;32mSuccess\33[0m\n"
+	@printf "\033[1;32m[Create Book] Success\33[0m\n"
