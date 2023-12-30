@@ -105,7 +105,7 @@ Warp は Rust 製のモダンなターミナルです。
   - 実行したコマンドが、あらかじめ設定した秒数を経過した場合に通知される
   - 個人的に Docker などのビルドの終了を通知してくれるので超便利
   ![Warpの通知画面](/images/warp_notification.png)
-- [SSH 先での Warpの機能の利用](https://docs.warp.dev/features/ssh)
+- [SSH 先での Warp の機能の利用](https://docs.warp.dev/features/ssh)
   - SSH 先でも入力補完や入力履歴の機能が使用可能
   <!-- textlint-disable rousseau -->
   ![Warp のSSH接続の画面](/images/warp_ssh.png)
