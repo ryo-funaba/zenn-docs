@@ -1,8 +1,6 @@
 {
   "recommendations": [
     "davidanson.vscode-markdownlint",
-    "mosapride.zenkaku",
-    "taichi.vscode-textlint",
-    "yzhang.markdown-all-in-one",
+    "3w36zj6.textlint",
   ]
 }
