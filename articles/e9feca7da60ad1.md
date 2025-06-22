@@ -3,7 +3,7 @@ title: "JSTQB FL を効率よく学習して合格した方法"
 emoji: "🏃‍♂️"
 type: "idea"
 topics: ["資格試験", "Test", "QA", "品質保証", "JSTQB"]
-published: false
+published: true
 ---
 
 # はじめに
