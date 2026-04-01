@@ -8,7 +8,7 @@ help:
 .PHONY: lint ## 全ファイルを対象に Lint を実行する
 lint:
 	@printf "\033[1;33m[Lint] Start\33[0m\n"; \
-	npm run lint
+	bun run lint
 	@printf "\033[1;32m[Lint] Success\33[0m\n"
 
 #
