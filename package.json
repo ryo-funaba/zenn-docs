@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "zenn-docs",
   "main": "README.md",
+  "private": true,
   "scripts": {
     "lint": "textlint -c ./config/.textlintrc . && markdownlint -c ./config/.markdownlint.jsonc *.md **/*.md"
   },

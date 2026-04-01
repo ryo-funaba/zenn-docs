@@ -23,7 +23,7 @@ Zenn の記事や本を管理するリポジトリです。
 3. パッケージをインストール
 
    ```bash
-   npm install
+   bun install --frozen-lockfile
    ```
 
 4. コンテンツをブラウザでプレビュー
