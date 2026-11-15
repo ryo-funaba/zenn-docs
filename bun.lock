@@ -44,7 +44,7 @@
         "textlint-rule-spellcheck-tech-word": "5.0.0",
         "textlint-rule-terminology": "5.2.16",
         "textlint-rule-use-si-units": "2.0.0",
-        "zenn-cli": "0.5.14",
+        "zenn-cli": "0.5.15",
       },
     },
   },
@@ -1351,9 +1351,9 @@
 
     "xtend": ["xtend@4.0.2", "", {}, "sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ=="],
 
-    "zenn-cli": ["zenn-cli@0.5.14", "", { "dependencies": { "@ai-sdk/amazon-bedrock": "^5.0.123", "@ai-sdk/anthropic": "^4.0.87", "@ai-sdk/azure": "^4.0.109", "@ai-sdk/fireworks": "^3.0.80", "@ai-sdk/google-vertex": "^5.0.121", "@ai-sdk/openai": "^4.0.101", "@aws-sdk/credential-providers": "^3.1156.0", "@azure/identity": "^4.14.1", "@openrouter/ai-sdk-provider": "^3.1.0", "@secretlint/node": "^13.0.6", "@secretlint/secretlint-rule-preset-recommend": "^13.0.6", "ai": "^7.0.150", "arg": "^5.0.2", "boxen": "^9.0.0", "cheerio": "1.2.0", "chokidar": "^5.0.0", "colors": "1.4.0", "configstore": "^8.0.0", "express": "^5.1.0", "fs-extra": "^11.3.2", "image-size": "^2.0.2", "js-yaml": "^5.2.1", "node-fetch": "^3.3.2", "open": "^11.0.4", "package-manager-detector": "^1.6.0", "ws": "^8.18.3", "zenn-markdown-html": "0.5.14", "zod": "^4.6.7" }, "bin": { "zenn": "dist/server/zenn.js" } }, "sha512-843/88s2fU8A/6mJjHEp3fZVMpcXcoIsmlJc+TjXv8f9/CMH/luGdl0kBuLSh4q3U6kx9JQiwk3LBJBZbNZtPw=="],
+    "zenn-cli": ["zenn-cli@0.5.15", "", { "dependencies": { "@ai-sdk/amazon-bedrock": "^5.0.123", "@ai-sdk/anthropic": "^4.0.87", "@ai-sdk/azure": "^4.0.109", "@ai-sdk/fireworks": "^3.0.80", "@ai-sdk/google-vertex": "^5.0.121", "@ai-sdk/openai": "^4.0.101", "@aws-sdk/credential-providers": "^3.1156.0", "@azure/identity": "^4.14.1", "@openrouter/ai-sdk-provider": "^3.1.0", "@secretlint/node": "^13.0.6", "@secretlint/secretlint-rule-preset-recommend": "^13.0.6", "ai": "^7.0.150", "arg": "^5.0.2", "boxen": "^9.0.0", "cheerio": "1.2.0", "chokidar": "^5.0.0", "colors": "1.4.0", "configstore": "^8.0.0", "express": "^5.1.0", "fs-extra": "^11.3.2", "image-size": "^2.0.2", "js-yaml": "^5.2.1", "node-fetch": "^3.3.2", "open": "^11.0.4", "package-manager-detector": "^1.6.0", "ws": "^8.18.3", "zenn-markdown-html": "0.5.15", "zod": "^4.6.7" }, "bin": { "zenn": "dist/server/zenn.js" } }, "sha512-cSNtFx/b9o2gEh9QxGT3m+qKLd431tzPvio3/IsIRMis6Y0OhkKo2xFIizZjZ7qxpSOuxNGoEuqdFdgO8BJcFQ=="],
 
-    "zenn-markdown-html": ["zenn-markdown-html@0.5.14", "", { "dependencies": { "cheerio": "1.2.0", "markdown-it": "^15.0.3", "markdown-it-anchor": "^10.0.0", "markdown-it-container": "^4.0.0", "markdown-it-footnote": "^4.0.0", "markdown-it-inline-comments": "^1.0.1", "markdown-it-link-attributes": "^4.0.1", "markdown-it-task-lists": "^2.1.1", "sanitize-html": "^2.17.0", "shiki": "^4.4.3" } }, "sha512-ew6BpUTdcXucjgZTPYRkGJM4rJJfzFFUQcQ+HLIXNVHO4x9zAKshFlOvUG7ANw1hiGCkagkTI3SJm5h7hTvTdA=="],
+    "zenn-markdown-html": ["zenn-markdown-html@0.5.15", "", { "dependencies": { "cheerio": "1.2.0", "markdown-it": "^15.0.3", "markdown-it-anchor": "^10.0.0", "markdown-it-container": "^4.0.0", "markdown-it-footnote": "^4.0.0", "markdown-it-inline-comments": "^1.0.1", "markdown-it-link-attributes": "^4.0.1", "markdown-it-task-lists": "^2.1.1", "sanitize-html": "^2.18.1", "shiki": "^4.4.3" } }, "sha512-2k1SMYdUtrMJhkPeYezSUtqNjcmsEFJUKCwwzM85ohUWpvbCnkxNrp2Wa/wAh+BmsIK+SUdKwGAoq5zFmFvxmg=="],
 
     "zlibjs": ["zlibjs@0.3.1", "", {}, "sha512-+J9RrgTKOmlxFSDHo0pI1xM6BLVUv+o0ZT9ANtCxGkjIVCCUdx9alUF8Gm+dGLKbkkkidWIHFDZHDMpfITt4+w=="],
 
